@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"PollutantsTracker "</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_activity2">Activity2</string>
+    <string name="title_activity_activity3">Activity3</string>
+    <string name="title_activity_tree_root">TreeRoot</string>
+    <string name="title_activity_start">start</string>
+    <string name="title_activity_activity_start">activity_start</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_save">save</string>
+    <string name="title_activity_add">add</string>
+    <string name="title_activity_delete">delete</string>
+    <string name="title_activity_settings">Settings</string>
+
+</resources>

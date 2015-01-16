@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ie.gmit.computing.pollutantstracker">
+
+    <!--<uses-sdk android:minSdkVersion="15" />-->
+
+    <!-- access camera and SD card -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+
+        <uses-library android:name="android.test.runner" />
+
+        <!-- 四大组件都会在下面 -->
+        <!-- 活动窗口1 -->
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+
+            <!-- 意图过滤 -->
+            <intent-filter>
+
+                <!-- 表程序主窗口 -->
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity_start"
+            android:label="@string/title_activity_activity_start" />
+        <activity
+            android:name=".add"
+            android:label="@string/title_activity_add" />
+        <activity
+            android:name=".delete"
+            android:label="@string/title_activity_delete" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings"></activity>
+    </application>
+
+</manifest>
